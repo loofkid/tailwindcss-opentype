@@ -3,3 +3,4 @@
 node_modules
 dist
 docs/src/assets/styles.css
+.pnpm-store
