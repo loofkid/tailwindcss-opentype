@@ -14,6 +14,7 @@
   "license": "ISC",
   "author": "Jeff Nelson <rustyangel@gmail.com> (https://tidaltheory.io)",
   "main": "dist/index.ts",
+  "type": "module",
   "files": [
     "dist"
   ],
@@ -22,8 +23,6 @@
     "changeset": "changeset add",
     "dev": "TAILWIND_MODE=watch eleventy --config=docs/.eleventy.js --serve",
     "lint": "tsdx lint",
-    "prepare": "npm run build",
-    "release": "npm run build && changeset publish",
     "start": "tsdx watch",
     "test": "tsdx test"
   },
