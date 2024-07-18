@@ -13,10 +13,7 @@
   "repository": "stormwarning/tailwindcss-opentype",
   "license": "ISC",
   "author": "Jeff Nelson <rustyangel@gmail.com> (https://tidaltheory.io)",
-  "main": "dist/index.ts",
-  "files": [
-    "dist"
-  ],
+  "main": "index.ts",
   "scripts": {
     "build:docs": "NODE_ENV=production npm run build && eleventy --config=docs/.eleventy.js",
     "changeset": "changeset add",
