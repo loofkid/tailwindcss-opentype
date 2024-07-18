@@ -28,8 +28,7 @@
     "test": "tsdx test"
   },
   "husky": {
-    "hooks": {
-    }
+    "hooks": {}
   },
   "lint-staged": {
     "*.{js,ts}": "eslint --fix",
@@ -49,13 +48,10 @@
     "@fec/eleventy-plugin-remark": "4.0.0",
     "@navith/tailwindcss-plugin-author-types": "1.8.1-0.1",
     "@tailwindcss/typography": "0.5.13",
-    "@typescript-eslint/eslint-plugin": "7.16.1",
-    "@typescript-eslint/parser": "7.16.1",
     "@zazen/eslint-config": "6.8.0",
     "autoprefixer": "10.4.19",
     "dedent": "1.5.3",
     "eslint": "9.7.0",
-    "eslint-config-standard-with-typescript": "43.0.1",
     "husky": "9.1.1",
     "import-sort-style-python": "1.0.2",
     "jest-diff": "29.7.0",
