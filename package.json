@@ -19,7 +19,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsdx build --format cjs",
+    "build": "tsdx build",
     "build:docs": "NODE_ENV=production npm run build && eleventy --config=docs/.eleventy.js",
     "changeset": "changeset add",
     "dev": "TAILWIND_MODE=watch eleventy --config=docs/.eleventy.js --serve",
